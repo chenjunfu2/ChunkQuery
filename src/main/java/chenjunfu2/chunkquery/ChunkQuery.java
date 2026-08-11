@@ -102,7 +102,7 @@ public class ChunkQuery implements ModInitializer
 					info = "Inaccessible";
 				}
 
-				return String.format("§8%s(%d)§r", info, loadLevel);//深灰
+				return String.format("§7%s(%d)§r", info, loadLevel);//灰
 			}
 			else
 			{
@@ -115,7 +115,7 @@ public class ChunkQuery implements ModInitializer
 	{
 		return switch (entityStatus)
 		{
-			case FRESH -> String.format("§8%s§r", entityStatus);//深灰
+			case FRESH -> String.format("§7%s§r", entityStatus);//灰
 			case PENDING -> String.format("§d%s§r", entityStatus);//紫
 			case LOADED -> String.format("§a%s§r", entityStatus);//绿
 			default -> String.format("§c%s§r", entityStatus);//红
