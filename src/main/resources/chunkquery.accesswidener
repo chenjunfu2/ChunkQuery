@@ -1,0 +1,5 @@
+accessWidener v2 named
+accessible method net/minecraft/server/world/ThreadedAnvilChunkStorage getCurrentChunkHolder (J)Lnet/minecraft/server/world/ChunkHolder;
+accessible field net/minecraft/server/world/ServerWorld entityManager Lnet/minecraft/server/world/ServerEntityManager;
+accessible field net/minecraft/server/world/ServerEntityManager managedStatuses Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;
+accessible class net/minecraft/server/world/ServerEntityManager$Status
